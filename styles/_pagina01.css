@@ -1,0 +1,57 @@
+#pagina01 {
+  height: calc(100vh - 61px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pagina01 .background img {
+  top: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+#pagina01 .content {
+  position: sticky;
+  color: #fff;
+}
+#pagina01 .titleBox {
+  background: #ff7400;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  padding: 16px 32px;
+  border-radius: 10px;
+  font-size: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 1;
+}
+#pagina01 .logoBox {
+  width: 150px;
+  padding: 32px 0;
+  margin: auto;
+  z-index: 1;
+}
+#pagina01 .logoBox img {
+  width: 150px;
+}
+#pagina01 .buttonBox {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@media screen and (max-width: 600px) {
+  #pagina01 .titleBox {
+    width: calc(90% - 64px);
+  }
+}
+@media screen and (max-width: 900px) {
+  #pagina01 .titleBox p {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,33 @@
+#pagina09 .titleBox {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 61px;
+  padding-bottom: 61px;
+}
+#pagina09 {
+  max-width: 100vw;
+}
+#pagina09 .content img#mobile {
+  display: none;
+}
+#pagina09 .content img#desktop {
+  display: block;
+  width: 70vw;
+  margin: auto;
+}
+@media screen and (max-width: 900px) {
+  #pagina09 .content img#mobile {
+    display: block;
+    margin: auto;
+    width: 90vw;
+  }
+  #pagina09 .content img#desktop {
+    display: none;
+  }
+  #pagina09 h2 {
+    font-size: 22px;
+  }
+  #Pagina09 .titleBox {
+    font-size: 20px;
+  }
+}

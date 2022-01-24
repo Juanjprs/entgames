@@ -1,0 +1,51 @@
+@import "./_pagina01.css";
+@import "./_pagina02.css";
+@import "./_pagina03.css";
+@import "./_pagina04.css";
+@import "./_pagina05.css";
+@import "./_pagina06.css";
+@import "./_pagina07.css";
+@import "./_pagina08.css";
+@import "./_pagina09.css";
+@import "./_pagina10.css";
+@import "./_pagina11.css";
+@import "./_pagina12.css";
+@import "./_lang.css";
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+button {
+  color: #fff;
+  border-radius: 21px;
+  border: none;
+  padding: 10px 25px;
+  font-size: 20.66px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 116, 0, 1) 0%,
+    rgb(255 180 29) 100%
+  );
+  transition: 0.6s;
+}
+button:hover {
+  transform: scale(1.12);
+}
+@media screen and (max-width: 900px) {
+  button {
+    font-size: 14.66px;
+  }
+}
+.buttonBox {
+  display: flex;
+  justify-content: center;
+  padding-top: 73px;
+  padding-bottom: 61px;
+  width: 80vw;
+  margin: auto;
+}

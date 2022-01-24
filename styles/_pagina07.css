@@ -1,0 +1,34 @@
+#pagina07 .content {
+    width: 100%;
+    height: 100%;
+    background-image: url(/image/pagina07/background.webp);
+  }
+  
+  #pagina07 .titulo h2 {
+    padding-top: 61px;
+    text-align: center;
+    font-size: 30px;
+    color:#424241;
+    margin: 0;
+  }
+  
+  #pagina07 .cadeadoBox {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    height: 100px;
+  }
+
+#pagina07 button:hover {
+  transform: scale(1);
+}
+#pagina07 button{
+  cursor: auto;
+  text-transform: none;
+  transition: 0;
+}
+  @media screen and (max-width: 900px) {
+    #pagina07 .titulo h2 {
+      font-size: 22px;
+    }
+  }

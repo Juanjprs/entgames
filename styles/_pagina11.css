@@ -1,0 +1,91 @@
+#pagina11 .contato {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 80vw;
+  height: 200px;
+  color: #fff;
+  align-items: end;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+#pagina11 .cara {
+  width: 220px;
+  height: 200px;
+  position: relative;
+  left: 140px;
+  top: 4px;
+}
+#pagina11 .iccon {
+  width: 40px;
+  height: 40px;
+}
+#pagina11 .contactBox {
+  margin-bottom: 1;
+}
+#pagina11 .box {
+  display: flex;
+  justify-content: space-between;
+  width: 64vw;
+  height: 100px;
+  align-items: flex-end;
+  background-color: #ff7400;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#pagina11 .centerBox {
+  display: flex;
+  width: 75vw;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+#pagina11 .titulo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+@media screen and (max-width: 1366px) {
+  #pagina11 .contactBox {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  #pagina11 .box {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  #pagina11 .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 380px;
+    width: 60vw;
+  }
+  #pagina11 .iccon {
+    margin-bottom: 0px;
+  }
+  #pagina11 .contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    height: 100%;
+  }
+  #pagina11 .centerBox {
+    display: grid;
+    width: 0;
+  }
+  #pagina11 .contactBox {
+    padding-top: 25px;
+  }
+  #pagina11 .cara {
+    text-align: center;
+    position: relative;
+    top: 4px;
+    left: 0;
+  }
+}

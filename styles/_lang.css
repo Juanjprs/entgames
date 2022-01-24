@@ -1,0 +1,11 @@
+#lang .lang{
+    color: #000; 
+    text-align: right; 
+
+}
+#lang img{
+    margin-top: 10px;
+    margin-inline: 5px;
+    width: 48px;
+    height: 48px;
+}
