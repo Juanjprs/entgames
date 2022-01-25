@@ -11,6 +11,10 @@
     justify-content: center;
     font-size: 27px;
     color: #424242;
+    text-align: center;
+  }
+  #pagina04 h2{
+    text-align: center;
   }
   #pagina04 p {
     text-align: center;
@@ -51,22 +55,32 @@
     width: auto;
   }
   #pagina04 .textBox p {
-    height: 80px;
+    height: 20px;
   }
   #pagina04 .plusBox,
-  #pagina04 .equalBox,
-  #pagina04 .logoBox {
+  #pagina04 .equalBox{
     height: 495px;
     display: flex;
     align-items: center;
   }
+  #pagina04 .logoBox img{
+    width: 40px;
+    height: 150px;
+    margin-top: 20px;
+  }
+  #pagina04 .txtBox{
+    color: #fff;
+    background-color: #424242;
+    border-radius: 10px;
+  }
+
   #pagina04 .plusBox img {
     width:40px;
     height: 40px;
   }
   #pagina04 .equalBox img {
     width: 40px;
-  height: 23px;
+    height: 23px;
   }
   #pagina04 .logoBox img {
     width: 150px;
@@ -74,6 +88,11 @@
   @media screen and (max-width: 900px) {
     #pagina04 .titulo h2 {
       font-size: 22px;
+    }
+    #pagina04 .logoBox img{
+      width: 150px;
+      height: 150px;
+      margin-top: 10px;
     }
     #pagina04 p {
       font-size: 14px;
@@ -84,8 +103,7 @@
       align-items: center;
     }
     #pagina04 .plusBox,
-    #pagina04 .equalBox,
-    #pagina04 .logoBox {
+    #pagina04 .equalBox{
       height: 100px;
     }
   }

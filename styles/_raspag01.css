@@ -1,0 +1,44 @@
+#pagina01ras {
+    display: grid;
+    align-items: center;
+}
+  
+  #pagina01ras Img{
+    width: 50vw;
+    height: 50vw;
+    float: left;
+}
+  #pagina01ras .titleBox{
+    text-align: center;
+    font-weight: 100;
+    margin: 10vw;
+}
+@media screen and (max-width: 600px) {
+    #pagina01ras .titleBox {
+      font-size: 14px;
+    }
+    
+}
+@media screen and (max-width: 900px) {
+    #pagina01ras .titleBox p {
+      font-size: 20px;
+      margin-top: 0px;
+    }
+    #pagina01ras .titleBox{
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 15px;
+      padding-inline: 10px;
+      }
+    #pagina01ras .content{
+      display: grid;
+    }
+    #pagina01ras{
+      background-image: url("../image/pagina01/bg.webp");
+      background-size: 150%;
+      background-repeat: no-repeat;
+    }
+    #pagina01ras .contentImg{
+      display: none;
+  }
+}
+  
