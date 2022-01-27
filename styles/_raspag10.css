@@ -1,0 +1,103 @@
+#raspag10 {
+    background: url(/image/pagina04/background.webp);
+  }
+  #raspag10 h2 {
+    padding: 61px 0;
+    text-align: center;
+    color: #424242;
+    font-size: 30px;
+  }
+  #raspag10 .plansBox {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  #raspag10 .setup h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 26px;
+  }
+  
+  #raspag10 .setup h3 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  #raspag10 .plan {
+    width: 270px;
+    height: 450px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 17px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 17px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 15px 10px 17px -6px rgba(0, 0, 0, 0.75);
+  }
+  
+  #raspag10 .header span {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  #raspag10 .setup {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #raspag10 .box {
+    width: 200px;
+  }
+  
+  #raspag10 .separador {
+    border-bottom: 4px dotted;
+    margin-bottom: 15px;
+  }
+  
+  #raspag10 .boxCheck img {
+    height: 20px;
+    width: 20px;
+  }
+  
+  #raspag10 .boxCheck {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  #raspag10 .header {
+    height: 80px;
+    border-radius: 0px 0px 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 116, 0, 1) 0%,
+      rgb(255 180 29) 100%
+    );
+    -webkit-box-shadow: 0px 7px 3px 0px #7d7d7d;
+    box-shadow: 0px 7px 3px 0px #7d7d7d;
+  }
+  
+  @media screen and (max-width: 900px) {
+    #raspag10 .plansBox {
+      flex-direction: column;
+      align-items: center;
+    }
+    #raspag10 .plan {
+      margin-bottom: 30px;
+      width: 75vw;
+      height: 110%;
+    }
+  }
+  
+  @media screen and (max-width: 1060px) {
+    #raspag10 .plansBox {
+      width: 95%;
+    }
+  }
