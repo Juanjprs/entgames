@@ -14,16 +14,26 @@
     margin: 10vw;
     margin-top: 20vw;
 }
+  #pagina01ras h1,h3{
+    font-weight: 500;
+  }
+  #pagina01ras cor{
+    color: #128c66;
+    font-weight: 600;
+  }
 @media screen and (max-width: 600px) {
     #pagina01ras .titleBox {
       font-size: 14px;
     }
+    #pagina01ras .h3mob{
+      display: none;
+    }
     
 }
 @media screen and (max-width: 900px) {
-    #pagina01ras .titleBox p {
-      font-size: 20px;
-      margin-top: 0px;
+
+    #pagina01ras .h3mob{
+      display: none;
     }
     #pagina01ras .titleBox{
       background-color: rgba(255, 255, 255, 0.8);
@@ -37,6 +47,7 @@
       background-image: url("../image/pagina01/bg.webp");
       background-size: 150%;
       background-repeat: no-repeat;
+      padding-bottom: 80px;
     }
     #pagina01ras .contentImg{
       display: none;

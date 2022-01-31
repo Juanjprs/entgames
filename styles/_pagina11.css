@@ -8,6 +8,8 @@
   align-items: end;
   padding-bottom: 40px;
   margin: 0 auto;
+  position: relative;
+  right: 70px;
 }
 #pagina11 .cara {
   width: 220px;
@@ -50,6 +52,10 @@
 @media screen and (max-width: 1366px) {
   #pagina11 .contactBox {
     font-size: 14px;
+  }
+  #pagina11 .contato {
+    position: relative;
+    right: 0px;
   }
 }
 @media screen and (max-width: 1050px) {
