@@ -1,57 +1,89 @@
 #pagina01 {
-  height: calc(100vh - 61px);
-  display: flex;
+  display: grid;
   align-items: center;
-  justify-content: center;
 }
-#pagina01 .background img {
-  top: 0;
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  left: 0;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 0;
+
+#pagina01 Img{
+  width: 45vw;
+  height: 45vw;
+  float: left;
 }
-#pagina01 .content {
-  position: sticky;
-  color: #fff;
-}
-#pagina01 .titleBox {
-  background: #ff7400;
-  width: 400px;
+#pagina01 .titleBox{
   text-align: center;
-  margin: auto;
-  padding: 16px 32px;
-  border-radius: 10px;
-  font-size: 27px;
-  font-weight: bold;
-  text-transform: uppercase;
-  z-index: 1;
+  font-weight: 100;
+  margin: 10vw;
+  margin-top: 10vw;
+  margin-left: 50vw;
 }
-#pagina01 .logoBox {
-  width: 150px;
-  padding: 32px 0;
-  margin: auto;
-  z-index: 1;
+#pagina01 h1,h3{
+  font-weight: 500;
 }
-#pagina01 .logoBox img {
-  width: 150px;
+#pagina01 h3{
+  font-size: 18pt;
 }
-#pagina01 .buttonBox {
-  padding-top: 0px;
-  padding-bottom: 0px;
+#pagina01 h1{
+  font-size: 24pt;
+}
+#pagina01 cor{
+  color: #128c66;
+  font-weight: 600;
 }
 @media screen and (max-width: 600px) {
   #pagina01 .titleBox {
-    width: calc(90% - 64px);
+    font-size: 14px;
   }
+  #pagina01 .h3mob{
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 1610px) {
+#pagina01 .titleBox{
+  text-align: center;
+  font-weight: 100;
+  margin: 2vw;
+  margin-top: 7vw;
+}
+}
+@media screen and (max-width: 1425px) {
+#pagina01 .titleBox{
+  text-align: center;
+  font-weight: 100;
+  margin: 2vw;
+  margin-top: 7vw;
+}
+}
+@media screen and (max-width: 1185px) {
+#pagina01 h1{
+  font-size: 20pt;
+}
+#pagina01 h3{
+  font-size: 15pt;
+}
 }
 @media screen and (max-width: 900px) {
-  #pagina01 .titleBox p {
-    font-size: 20px;
+
+  #pagina01 .h3mob{
+    display: none;
   }
+  #pagina01 h1{
+    font-size: 20pt;
+  }
+  #pagina01 .titleBox{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding-inline: 10px;
+    }
+  #pagina01 .content{
+    display: grid;
+  }
+  #pagina01{
+    background-image: url("../image/pagina01/bg.webp");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+  }
+  #pagina01 .contentImg{
+    display: none;
+}
 }

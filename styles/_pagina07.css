@@ -1,34 +1,46 @@
-#pagina07 .content {
+#pagina07 {
+  background: url(/image/pagina07/background.webp);
+}
+#pagina07 .titleBox h2 {
+  padding-top: 61px;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+#pagina07 .parterns img {
+  width: 200px;
+}
+#pagina07 .parterns:first-child {
+  width: 200px;
+  margin-right: 44px;
+}
+#pagina07 .parterns:last-child {
+  width: 200px;
+  margin-left: 44px;
+}
+#pagina07 .parternsBox {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 61px;
+}
+@media screen and (max-width: 900px) {
+  #pagina07 .titleBox h2 {
+    font-size: 22px;
+  }
+  #pagina07 .parternsBox {
     width: 100%;
-    height: 100%;
-    background-image: url(/image/pagina07/background.webp);
+    flex-direction: column;
   }
-  
-  #pagina07 .titulo h2 {
-    padding-top: 61px;
-    text-align: center;
-    font-size: 30px;
-    color:#424241;
-    margin: 0;
+  #pagina07 .parterns:first-child {
+    margin-right: 0;
+    margin-bottom: 40px;
   }
-  
-  #pagina07 .cadeadoBox {
-    display: flex;
-    justify-content: center;
-    padding-top: 45px;
-    height: 100px;
+  #pagina07 .parterns:last-child {
+    margin-left: 0;
   }
-
-#pagina07 button:hover {
-  transform: scale(1);
 }
-#pagina07 button{
-  cursor: auto;
-  text-transform: none;
-  transition: 0;
-}
-  @media screen and (max-width: 900px) {
-    #pagina07 .titulo h2 {
-      font-size: 22px;
-    }
-  }

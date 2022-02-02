@@ -1,100 +1,72 @@
 #pagina10 {
-  background: url(/image/pagina04/background.webp);
+  display: flex;
+  justify-content: center;
+  background-image: url(../image/pagina07/background.webp);
 }
-#pagina10 h2 {
-  padding: 61px 0;
-  text-align: center;
-  color: #424242;
-  font-size: 30px;
+#pagina10 form {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 65px;
 }
-#pagina10 .plansBox {
+#pagina10 .container {
   display: flex;
   justify-content: space-between;
-  width: 70%;
-  margin: 0 auto;
 }
-
-#pagina10 .setup h2 {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-size: 26px;
-}
-
-#pagina10 .setup h3 {
-  font-size: 45px;
-  margin-bottom: 30px;
-  margin-top: 20px;
-}
-
-#pagina10 .plan {
-  width: 270px;
-  height: 450px;
-  background: white;
-  border-radius: 5px;
-  box-shadow: 10px 10px 17px -6px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 17px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 15px 10px 17px -6px rgba(0, 0, 0, 0.75);
-}
-
-#pagina10 .header span {
+#pagina10 input[type="text"],
+[type="email"] {
+  display: block;
+  border: solid 0px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 400px;
+  background-color: #ff7400;
   color: #fff;
-  font-size: 25px;
   font-weight: bold;
 }
-
-#pagina10 .setup {
+#pagina10 input[type="submit"] {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #424242;
+  border: hidden;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.6s;
+}
+#pagina10 input[type="submit"]:hover {
+  transform: scale(1.12);
+}
+#pagina10 ::placeholder {
+  color: #fff;
+}
+#pagina10 .textBox {
+  font-size: 22px;
+  color: #fff;
   display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-#pagina10 .box {
-  width: 200px;
-}
-
-#pagina10 .separador {
-  border-bottom: 4px dotted;
-  margin-bottom: 15px;
-}
-
-#pagina10 .boxCheck img {
-  height: 20px;
-  width: 20px;
-}
-
-#pagina10 .boxCheck {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
 }
-
-#pagina10 .header {
-  height: 80px;
-  border-radius: 0px 0px 40px 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 116, 0, 1) 0%,
-    rgb(255 180 29) 100%
-  );
-  -webkit-box-shadow: 0px 7px 3px 0px #7d7d7d;
-  box-shadow: 0px 7px 3px 0px #7d7d7d;
-}
-
 @media screen and (max-width: 900px) {
-  #pagina10 .plansBox {
-    flex-direction: column;
-    align-items: center;
+  #pagina10 form {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 64px;
   }
-  #pagina10 .plan {
-    margin-bottom: 30px;
+  #pagina10 .container {
+    display: flex;
+    flex-direction: column-reverse;
   }
-}
-
-@media screen and (max-width: 1060px) {
-  #pagina10 .plansBox {
-    width: 95%;
+  #pagina10 input[type="text"],
+  [type="email"] {
+    width: min(300px, 80vw);
+  }
+  #pagina10 .textBox {
+    margin-top: 30px;
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
   }
 }

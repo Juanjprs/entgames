@@ -6,22 +6,31 @@
   align-items: center;
 }
 #pagina02 .content {
-  margin: 92px 0;
+  margin: 32px 0;
   display: flex;
 }
 #pagina02 .textBox {
   width: calc(50vw - 22.5px);
   font-size: 21px;
   font-weight: bold;
-  color: #424241;
+  color: #131313;
+  display: flex;
+  justify-content: center;
 }
 #pagina02 .textBox div {
   width: 80%;
   margin-left: 22.5px;
-}
-#pagina02 .videoBox {
   display: flex;
-  justify-content: end;
+  margin-top: 10vw;
+}
+#pagina02 .imgBox{
+    width: 30vw;
+    height: 30vw;
+    
+}
+#pagina02 .imgBox {
+  display: flex;
+  justify-content: center;
   margin-right: 22.5px;
   width: calc(50vw - 22.5px);
 }
@@ -41,9 +50,9 @@
   #pagina02 .videoBox {
     width: 100%;
   }
-  #pagina02 .videoBox iframe {
-    width: 90%;
-    height: 300px;
+  #pagina02 .imgBox  {
+    width: 70%;
+    height: 200px;
     margin: auto;
   }
   #pagina02 .content {

@@ -1,46 +1,33 @@
-#pagina08 {
-  background: url(/image/pagina08/background.webp);
-}
-#pagina08 .titleBox h2 {
-  padding-top: 61px;
+#pagina08 .titleBox {
   text-align: center;
-  padding-bottom: 50px;
   font-size: 30px;
-  font-weight: bold;
-  color: #fff;
-}
-#pagina08 .parterns img {
-  width: 200px;
-}
-#pagina08 .parterns:first-child {
-  width: 200px;
-  margin-right: 44px;
-}
-#pagina08 .parterns:last-child {
-  width: 200px;
-  margin-left: 44px;
-}
-#pagina08 .parternsBox {
-  display: flex;
-  width: 50%;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
+  padding-top: 61px;
   padding-bottom: 61px;
 }
+#pagina08 {
+  max-width: 100vw;
+}
+#pagina08 .content img#mobile {
+  display: none;
+}
+#pagina08 .content img#desktop {
+  display: block;
+  width: 70vw;
+  margin: auto;
+}
 @media screen and (max-width: 900px) {
-  #pagina08 .titleBox h2 {
+  #pagina08 .content img#mobile {
+    display: block;
+    margin: auto;
+    width: 90vw;
+  }
+  #pagina08 .content img#desktop {
+    display: none;
+  }
+  #pagina08 h2 {
     font-size: 22px;
   }
-  #pagina08 .parternsBox {
-    width: 100%;
-    flex-direction: column;
-  }
-  #pagina08 .parterns:first-child {
-    margin-right: 0;
-    margin-bottom: 40px;
-  }
-  #pagina08 .parterns:last-child {
-    margin-left: 0;
+  #pagina08 .titleBox {
+    font-size: 20px;
   }
 }
