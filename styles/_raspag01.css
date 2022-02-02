@@ -4,18 +4,25 @@
 }
   
   #pagina01ras Img{
-    width: 50vw;
-    height: 50vw;
+    width: 45vw;
+    height: 45vw;
     float: left;
 }
   #pagina01ras .titleBox{
     text-align: center;
     font-weight: 100;
     margin: 10vw;
-    margin-top: 20vw;
+    margin-top: 10vw;
+    margin-left: 50vw;
 }
   #pagina01ras h1,h3{
     font-weight: 500;
+  }
+  #pagina01ras h3{
+    font-size: 18pt;
+  }
+  #pagina01ras h1{
+    font-size: 24pt;
   }
   #pagina01ras cor{
     color: #128c66;
@@ -30,10 +37,37 @@
     }
     
 }
+@media screen and (max-width: 1610px) {
+  #pagina01ras .titleBox{
+    text-align: center;
+    font-weight: 100;
+    margin: 2vw;
+    margin-top: 7vw;
+}
+}
+@media screen and (max-width: 1425px) {
+  #pagina01ras .titleBox{
+    text-align: center;
+    font-weight: 100;
+    margin: 2vw;
+    margin-top: 7vw;
+}
+}
+@media screen and (max-width: 1185px) {
+  #pagina01ras h1{
+    font-size: 20pt;
+  }
+  #pagina01ras h3{
+    font-size: 15pt;
+  }
+}
 @media screen and (max-width: 900px) {
 
     #pagina01ras .h3mob{
       display: none;
+    }
+    #pagina01ras h1{
+      font-size: 20pt;
     }
     #pagina01ras .titleBox{
       background-color: rgba(255, 255, 255, 0.8);
@@ -53,4 +87,3 @@
       display: none;
   }
 }
-  

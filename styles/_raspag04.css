@@ -19,9 +19,6 @@
   #pagina04ras p {
     text-align: center;
   }
-  #pagina04ras .textBox {
-    text-align: center;
-  }
   #pagina04ras .buttonBox {
     display: flex;
     justify-content: center;
@@ -59,7 +56,6 @@
   }
   #pagina04ras .textBox p {
     height: 20px;
-    font-size: 16px;
   }
   #pagina04ras .plusBox,
   #pagina04ras .equalBox{
