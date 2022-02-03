@@ -1,0 +1,14 @@
+#footer p{
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+#footer .rodape{
+    background: linear-gradient(
+        90deg,
+        rgba(255, 116, 0, 1) 70%,
+        rgb(255 180 29) 100%
+      );
+    padding: 1vw;
+    margin-top: 100px;
+}
