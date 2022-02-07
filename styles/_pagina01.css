@@ -81,7 +81,7 @@
     background-image: url("../image/pagina01/bg.webp");
     background-size: 150%;
     background-repeat: no-repeat;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
   }
   #pagina01 .contentImg{
     display: none;

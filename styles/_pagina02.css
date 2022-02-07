@@ -12,7 +12,7 @@
 #pagina02 .textBox {
   width: calc(50vw - 22.5px);
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 400;
   color: #131313;
   display: flex;
   justify-content: center;

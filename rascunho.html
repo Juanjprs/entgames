@@ -15,13 +15,21 @@
     <script defer type="text/javascript" src="/scripts/js/form/jquery-3.3.1.min.js"></script>
     <script defer type="text/javascript" src="/scripts/js/form/jquery.mask.min.js"></script>
     <script defer src="/scripts/js/button.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function(){
+          $(document).ready(function () {
+          $("#cnpj").mask("00.000.000/0000-00")
+          $("#tel").mask("(00) 00000-0000")
+    })
+        })
+    </script>
 </head>
 
 <body>
     <section id="pagina01">
         <div class="content">
             <div class="contentImg">
-                <img src="image/pagina01/cell.webp">
+                <img src="image/pagina01/cell.webp" alt="bg celular">
             </div>
             <section id="lang">
                 <div class="lang">
@@ -31,19 +39,19 @@
             </section>
             <div class="titleBox">
                 <h1>
-                    <b>LEARNING MANAGEMENT</b> TOOL
-                    WITH THE <cor>EFFECTIVENESS & SIMPLICITY</cor> THAT YOUR 
-                    BUSINESS NEEDS<BR>
+                    FERRAMENTA DE <b>GESTÃO DE APRENDIZADO</b>
+                    COM A <cor>EFICÁCIA & SIMPLICIDADE</cor> QUE SEU
+                    NEGÓCIO PRECISA<bR>
                 </h1>
             <div class="h3mob">
                 <h3>
                     <br>
-                    Performance for the <b>company</b> &<bR>
-                    Checks and indicators in the <b>manager's hand</b> &<br>
-                    gamified learning for <b>employees.</b><br>
+                    Performance para a <b>empresa</b> &<bR>
+                    Checagem e indicadores na <b>mão do gestor</b> &<br>
+                    Aprendizado gamificado para os <b>colaboradores.</b><br>
                     <br><br>
-                    Fast support and personalization to your business, all that<br>
-                    because it's made by those who've been in your place.
+                    Suporte Ágil e Personalizações para seu negócio, tudo isto<br>
+                    porque é feita por quem já esteve em seu lugar.
                 </h3>
             </div>
             </div>
@@ -55,11 +63,11 @@
                 <div class="textBox">
                 <div>
                     <p>
-                        <titulo>Know us</titulo><br>
-                        <cor>&#8203 In 3 minutes.</cor>
+                        <titulo>Conheça-nos</titulo><br>
+                        <cor>&#8203 Em menos de 3 minutinhos.</cor>
                     </p>
                     <p>
-                        Let's go?
+                        Vamos lá?
                     </p>
                 </div>
             </div>
@@ -75,13 +83,13 @@
                 <div class="textBox">
                     <div>
                         <p>
-                            <titulo>Know us</titulo><br>
-                            <cor>&#8203 In 3 minutes.</cor>
+                            <titulo>Conheça-nos</titulo><br>
+                            <cor>&#8203 Em menos de 3 minutinhos.</cor>
                         </p>
                         
                         <p>
                             <br>
-                            Let's go?
+                            Vamos lá?
                         </p>
                     </div>
                 </div>
@@ -91,12 +99,16 @@
     <section id="pagina02">
         <div class="content">
             <div class="imgBox">
-                <img src="./image/pagina02/ying-eng.svg" alt="retail and education">
+                <img src="./image/pagina02/ying.svg" alt="varejo e educação">
             </div>
             <div class="textBox">
                 <div>
                     <p>
-                        We are a tech startup focused on corporate education that, through data intelligence and gamification, enhances the results of its customers.
+                        Somos uma startup de tecnologia com foco em
+                        educação corporativa que por meio de
+                        inteligência de dados e gamificação
+                        potencializa o resultado dos seus
+                        clientes.
                     </p>
                 </div>
             </div>
@@ -104,7 +116,7 @@
     </section>
     <section id="Pagina03">
         <div class="titleBox">
-            <br>Wich of these problems</br> <b>worries you the most?</b>
+            <br>Qual destes desafios</br> <b>mais te preocupa?</b>
         </div>
         <div class="challengesBox">
             <div class="challenges">
@@ -113,8 +125,8 @@
                 </div>
                 <div class="textBox">
                     <p>
-                        The company grew up and it's hard to
-                        <b>train employees with quality</b>
+                        A empresa cresceu e ficou difícil
+                        <b>treinar tantas pessoas com qualidade</b>
                     </p>
                 </div>
             </div>
@@ -123,7 +135,7 @@
                     <img src="image/pagina03/trofeu.webp" alt="Trofeu" />
                 </div>
                 <div class="textBox">
-                    <p>My <b>contributors</b> could be <b>more engaged</b></p>
+                    <p>Meus <b>colaboradores</b> poderiam ser <b>mais engajados</b></p>
                 </div>
             </div>
             <div class="challenges">
@@ -132,19 +144,19 @@
                 </div>
                 <div class="textBox">
                     <p>
-                        Still don't make decisions <b>based on data intelligence</b>
+                        Ainda não tomo decisões <b>baseadas em inteligência de dados</b>
                     </p>
                 </div>
             </div>
         </div>
         <div class="buttonBox">
-            <button onclick="goToWhatsapp()">I want to know more</button>
+            <button onclick="goToWhatsapp()">QUERO SABER MAIS</button>
         </div>
     </section>
     <section id="pagina04">
         <div class="content">
             <div class="titulo">
-                <h2>How to solve? <br>TCC Method</h1>
+                <h2>Como resolver? <br>Método TCC</h1>
             </div>
             <div class="resolutionBox">
                 <div class="resolution">
@@ -153,7 +165,7 @@
                         <h2></h2>
                         <div class="txtBox">
                             <p>
-                                <br>Learn the technique<bR><br>
+                                <br>Aprender a técnica<bR><br>
                             </p>
                         </div>
                         <div class="imgBox">
@@ -167,7 +179,7 @@
                         <div class="imgBox">
                             <img src="./image/pagina04/joystick.svg" alt="joystick">
                         </div>
-                        <p>Gamification</p>
+                        <p>Gamificação</p>
                     </div>
                 </div>
                 <div class="plusBox">
@@ -178,14 +190,14 @@
                     <div class="challenge">
                         <div class="txtBox">
                             <p>
-                                <br>Map the<br>behaviour<bR><br>
+                                <br>Mapear <br>comportamento<bR><br>
                             </p>
                         </div>
                         <div class="imgBox">
                             <img src="./image/pagina04/trofeu.svg" alt="trofeu">
                         </div>
                         <div class="textBox">
-                            <p>Organizational climate</p>
+                            <p>Clima organizacional</p>
                         </div>
 
                     </div>
@@ -193,7 +205,7 @@
                         <div class="imgBox">
                             <img src="./image/pagina04/emoji.svg" alt="joystick">
                         </div>
-                        <p>Emotional thermometer</p>
+                        <p>Termômetro emocional</p>
                     </div>
                 </div>
                 <div class="plusBox">
@@ -204,7 +216,7 @@
                     <div class="challenge">
                         <div class="txtBox">
                             <p>
-                                <br>Check execution<bR><br>
+                                <br>Checar execução<bR><br>
                             </p>
                         </div>
                         <div class="imgBox">
@@ -222,26 +234,26 @@
                     <p><br><br></p>
                     <div class="txtBox">
                         <p>
-                            <br>Results<br><br>
+                            <br>Resultado<br><br>
                         </p>
                     </div>
                     <img src="./image/pagina04/cabeca.svg" alt="logo">
-                    <p>Dashboard with BI</p>
+                    <p>Dashboard com BI</p>
                 </div>
             </div>
             <div class="buttonBox">
-                <button onclick="goToWhatsapp()">I want to know more</button>
+                <button onclick="goToWhatsapp()">QUERO SABER MAIS</button>
             </div>
         </div>
     </section>
     <section id="pagina05">
         <div class="titleBox">
-            <h2>How our product works</h2>
+            <h2>Como nosso produto funciona</h2>
         </div>
         <div class="productBox">
             <div class="product">
                 <div class="productTitle">
-                    <span>Game</span>
+                    <span>Jogo</span>
                 </div>
                 <div class="productImg">
                     <img src="/image/pagina05/MOBILE.GIF" alt="">
@@ -250,7 +262,7 @@
             <div class="bar"></div>
             <div class="product">
                 <div class="productTitle">
-                    <span>Dashboards</span>
+                    <span>Painel de Gestão</span>
                 </div>
                 <div class="productImg">
                     <img src="/image/pagina05/PC.gif" alt="">
@@ -258,25 +270,25 @@
             </div>
         </div>
         <div class="buttonBox">
-            <button onclick="goToWhatsapp()">I want to know more</button>
+            <button onClick="goToWhatsapp()">quero saber mais</button>
         </div>
     </section>
     <section id="pagina06">
         <div class="content">
             <div class="titulo">
-                <h2>LGPD Adequation</h2>
+                <h2>Adequação LGPD</h2>
             </div>
             <div class="cadeadoBox">
                 <img src="image/pagina06/cadeado.webp" alt="Cadeado" />
             </div>
             <div class="buttonBox">
-                <button>Your data protected with the LGPD standards</button>
+                <button>Seus dados protegidos de acordo com as normas LGPD</button>
             </div>
         </div>
     </section>
     <section id="pagina07">
         <div class="titleBox">
-            <h2>Scale and security</h2>
+            <h2>Escala e segurança</h2>
         </div>
         <div class="parternsBox">
             <div class="parterns">
@@ -289,114 +301,49 @@
     </section>
     <section id="pagina08">
         <div class="titleBox">
-            <br>What do you need </br> <b>to be our client</b>
+            <br>O que você precisa</br> <b>para ser nosso cliente</b>
         </div>
         <div class="content">
-            <img id="desktop" src="/image/pagina08/passos-pc2-eng.webp" alt="passos desktop">
-            <img id="mobile" src="/image/pagina08/passos-mobile2-eng.webp" alt="passos pc">
+            <img id="desktop" src="/image/pagina08/passos-pc2.webp" alt="passos desktop">
+            <img id="mobile" src="/image/pagina08/passos-mobile2.webp" alt="passos pc">
         </div>
         <div class="buttonBox">
-            <button onclick="goToWhatsapp()">I want to know more</button>
+            <button onClick="goToWhatsapp()">quero saber mais</button>
         </div>
     </section>
-    <section id="pagina09">
-        <h2>Investiment</h2>
-        <div class="plansBox">
-            <div class="plan">
-                <div class="header">
-                    <span>Bronze</span>
-                </div>
-                <div class="setup">
-                    <div class="box">
-                        <h2>initial setup</h2>
-                        <h3>R$ 7</h3>
-                        <div class="separador"></div>
-                        <div class="boxCheck">
-                            <img src="image/pagina10/check-01-01.webp" alt="Check">
-                            <p>+ 100 employees</p>
-                        </div>
-                        <div class="boxCheck">
-                            <img src="image/pagina10/check-01-01.webp" alt="Check">
-                            <p>per user-month</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="plan">
-                <div class="header">
-                    <span>Gold</span>
-                </div>
-                <div class="setup">
-                    <div class="box">
-                        <h2>initial setup</h2>
-                        <h3>R$ 5</h3>
-                        <div class="separador"></div>
-                        <div class="boxCheck">
-                            <img src="image/pagina10/check-01-01.webp" alt="Check">
-                            <p>+ 250 employees</p>
-                        </div>
-                        <div class="boxCheck">
-                            <img src="image/pagina10/check-01-01.webp" alt="Check">
-                            <p>per user-month</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="plan">
-                <div class="header">
-                    <span>Diamond</span>
-                </div>
-                <div class="setup">
-                    <div class="box">
-                        <h2>initial setup</h2>
-                        <h3>R$ 4</h3>
-                        <div class="separador"></div>
-                        <div class="boxCheck">
-                            <img src="image/pagina10/check-01-01.webp" alt="Check">
-                            <p>+ 500 employees</p>
-                        </div>
-                        <div class="boxCheck">
-                            <img src="image/pagina10/check-01-01.webp" alt="Check">
-                            <p>per user-month</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="buttonBox">
-            <button>I want to know more</button>
-        </div>
-    </section>
+
     <section id="pagina10">
         <div class="container">
             <form name="form" class="form" method="POST" action="https://api.staticforms.xyz/submit" onsubmit="formenviado()">
                 <input type="hidden" name="accessKey" value="1f197cfe-ac1c-4d85-9895-3c8fb5a9bc90"> 
-                <input type="hidden" name="redirectTo" value="https://entgames.com.br/eng">
-                <input type="text" id="empresa" placeholder="Company" required="required" name="$empresa">
+                <input type="hidden" name="redirectTo" value="https://entgames.com.br/">
+                <input type="text" id="empresa" placeholder="Empresa" required="required" name="$empresa">
                 <label for="empresa"></label><br>
-                <input type="text" id="nc" placeholder="Number of employees" name="$nc">
+                <input type="text" id="cnpj" placeholder="CNPJ" name="$cnpj">
+                <label for="cnpj"></label><br>
+                <input type="text" id="nc" placeholder="Número de colaboradores" name="$nc">
                 <label for="nc"></label><br>
                 <input type="email" id="email" placeholder="E-mail" required="required" name="email">
                 <label for="email"></label><br>
-                <input type="text" id="tel" placeholder="Phone" required="required" name="$telefone">
+                <input type="text" id="tel" placeholder="Telefone" required="required" name="$telefone">
                 <label for="tel"></label><br>
-                <input type="submit" value="Send" />
+                <input type="submit" value="Enviar" />
                 <script>
                     function formenviado(){
-                        alert("Successfully sent")
+                        alert("Dados enviados")
                     }
                 </script>
               </form>
-              </form>
             <h2 class="textBox">
-                Fill the form<br>
-                and stay tuned<br>
+                Preencha o formulário<br>
+                e fique sempre por dentro<br>
+                das novidades
             </h2>
         </div>
     </section>
     <section id="pagina11">
         <div class="titulo">
-            <h3>Contact</h3>
+            <h3>Contato</h3>
         </div>
         <div class="contato">
             <div class="contactBox">
@@ -429,7 +376,7 @@
     </section>
     <footer id="footer">
         <div class="rodape">
-        <p>© ENT Games. All rights reserved<br>CNPJ: 44.944.598/0001-42</p>
+        <p>Todos os direitos reservados à ENT Games<br>CNPJ: 44.944.598/0001-42</p>
         </div>
     </footer>
 </body>
